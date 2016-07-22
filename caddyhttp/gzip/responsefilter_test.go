@@ -1,7 +1,7 @@
 package gzip
 
 import (
-	"compress/gzip"
+	"https://github.com/klauspost/compress"
 	"fmt"
 	"net/http"
 	"net/http/httptest"
