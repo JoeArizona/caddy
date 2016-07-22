@@ -1,10 +1,13 @@
 // Package gzip provides a middleware layer that performs
 // gzip compression on the response.
+
+// This version has been modified to use Klaus Post's optimized golang gzip library: https://github.com/klauspost/compress
+
 package gzip
 
 import (
 	"bufio"
-	"compress/gzip"
+	"github.com/klauspost/compress/gzip"
 	"fmt"
 	"io"
 	"io/ioutil"
