@@ -1,7 +1,7 @@
 package gzip
 
 import (
-	"compress/gzip"
+	"https://github.com/klauspost/compress"
 	"net/http"
 	"strconv"
 )
